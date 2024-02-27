@@ -115,6 +115,7 @@ a {
 .list-company-name {
   list-style-type: none;
   padding: 0;
+  margin-bottom: 26px;
 }
 
 .list-company-name::before {
@@ -125,10 +126,12 @@ a {
   width: 100%;
   height: 1px;
   left: 0;
+  bottom: -243px;
 }
 
 .list-company-name li {
   display: inline-block;
+  padding: 0 13px;
 }
 
 .button-product-catalog {
@@ -143,7 +146,7 @@ a {
   font-weight: 500;
   font-family: "Gilroy-Medium";
   text-align: center;
-  margin-bottom: 103px;
+  margin-bottom: 93px;
 }
 
 .decorations-for-events {
@@ -154,7 +157,8 @@ a {
 
 .decorations-title {
   text-align: center;
-  margin-top: 110px;
+  margin-top: 80px;
+  margin-right: 22px;
 }
 
 .decorations-title p {
@@ -162,6 +166,7 @@ a {
   line-height: 29px;
   color: #333333;
   font-family: "Gilroy-Regular";
+  margin-bottom: 0px;
 }
 
 .decorations-title h2 {
@@ -169,6 +174,7 @@ a {
   color: #333333;
   font-weight: 700;
   font-family: "NotoSerif-Bold";
+  margin-top: 15px;
 }
 
 .decorations-link-block {
@@ -177,7 +183,7 @@ a {
   text-transform: uppercase;
   font-weight: 500;
   font-family: "Gilroy-Medium";
-  margin: 35px;
+  margin: 58px 35px 60px;
 }
 
 .decorations-link {
@@ -190,6 +196,7 @@ a {
   margin: 10px;
   position: relative;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 .decorations-link::before {
