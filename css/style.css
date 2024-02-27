@@ -1,0 +1,510 @@
+body {
+  margin: 0;
+}
+
+
+
+.header {
+  width: 100%;
+  height: 950px;
+  background-image: url(../img/header-pfoto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  width: 100%;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between
+}
+
+.header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 950px;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  padding: 0;
+
+}
+
+.header-menu li {
+  list-style-type: none;
+}
+
+.header-link {
+  padding: 5px;
+  margin: 10px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  font-family: "Gilroy-Regular";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-text {
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-text h2 {
+  color: #ffffff;
+  font-family: "NotoSerif-Bold";
+  font-size: 36px;
+}
+
+.part-logo-one {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  left: 40px;
+}
+
+.part-logo-two {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  left: -40px;
+}
+
+.list-company-name {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-company-name::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 1px;
+}
+
+.list-company-name li {
+  display: inline-block;
+}
+
+.button-product-catalog {
+  width: 261px;
+  height: 51px;
+  background-color: #333333;
+  border: 1px solid #ffffff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Gilroy-Medium";
+  text-align: center;
+}
+
+.decorations-for-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decorations-title {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.decorations-title p {
+  font-size: 21px;
+  line-height: 29px;
+  color: #333333;
+  font-family: "Gilroy-Regular";
+}
+
+.decorations-title h2 {
+  font-size: 30px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "NotoSerif-Bold";
+}
+
+.decorations-link-block {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Gilroy-Medium";
+  margin: 35px;
+}
+
+.decorations-link {
+  color: #000;
+  min-width: 165px;
+  height: 55px;
+  /* background-color: #f9f9f9; */
+  border: 1px solid #d6d6d6;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  background-color: #fff;
+}
+
+.decorations-link::before {
+  content: "";
+  position: absolute;
+  left: .5em;
+  top: .5em;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: inherit;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.catalog-block {
+  width: 350px;
+  height: 280px;
+  /* background-color:aquamarine; */
+}
+
+.catalog-block-title {
+  font-family: "Gilroy-Medium";
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 65%;
+  text-align: center;
+}
+
+.catalog-block-one {
+  background-image: url(../img/twoRings.png);
+}
+
+.catalog-block-two {
+  background-image: url(../img/women.png);
+}
+
+.catalog-block-three {
+  background-image: url(../img/pendants.png);
+}
+
+.catalog-block-four {
+  background-image: url(../img/cufflinks.png);
+}
+
+.catalog-block-five {
+  background-image: url(../img/bracelets.png);
+}
+
+.catalog-block-six {
+  background-image: url(../img/watch.png);
+}
+
+.our-showrooms {
+  background-image: url(../img/background.png);
+  /* background-color: #000; */
+  height: 540px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.our-showrooms-block {
+  color: #ffffff;
+  width: 710px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our-showrooms-block-title {
+  font-size: 21px;
+  line-height: 29px;
+  color: #ffffff;
+  font-family: "Gilroy-Regular";
+  /* text-align: center; */
+}
+
+.our-showrooms-text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  font-family: "Gilroy-Regular";
+  /* text-align: center; */
+}
+
+.our-showrooms h2 {
+  font-size: 30px;
+  /* color: #ffffff; */
+  font-weight: 700;
+  font-family: "NotoSerif-Bold";
+  /* text-align: center; */
+}
+
+.our-showrooms-block button {
+  width: 224px;
+  height: 51px;
+  background-color: #ffffff;
+  border: 1px solid #333333;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 500;
+  font-family: "Gilroy-Medium";
+  text-align: center;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.several-blocks {
+  display: flex;
+
+}
+
+.articles h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "NotoSerif-Bold";
+}
+
+.articles p {
+  font-size: 21px;
+  line-height: 29px;
+  font-family: "Gilroy-Regular";
+}
+
+.one-article {
+  width: 350px;
+  height: 370px;
+  background-color: bisque;
+  margin: 15px;
+}
+
+.one-article p {
+  font-size: 21px;
+  line-height: 29px;
+  color: #ffffff;
+  font-family: "Gilroy-Regular";
+  text-align: center;
+  margin: 70% auto 0;
+  width: 225px;
+
+}
+
+.one-article-first {
+  background-image: url(../img/watchForWife.png)
+}
+
+.one-article-second {
+  background-image: url(../img/cufflinksForHusband.png)
+}
+
+.one-article-third {
+  background-image:
+    url(../img/weddingRings.png);
+}
+
+.articles button {
+  width: 255px;
+  height: 51px;
+  background-color: #333333;
+  border: 1px solid #ffffff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Gilroy-Medium";
+  text-align: center;
+}
+
+.blockWithPictures {
+  width: 1110px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: aqua;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.oneBlockWithPictures {}
+
+.oneBlockWithPictures-first {
+  background-image: url(../img/img--hover.png);
+  grid-column: span 2;
+}
+
+.oneBlockWithPictures-second {
+  background-image: url(../img/socialMedia2.png);
+}
+
+.oneBlockWithPictures-third {
+  background-image: url(../img/socialMedia3.png);
+}
+
+.oneBlockWithPictures-fourth {
+  background-image: url(../img/socialMedia4.png);
+}
+
+.oneBlockWithPictures-fifth {
+  background-image: url(../img/socialMedia5.png);
+}
+
+.oneBlockWithPictures-sixth {
+  background-image: url(../img/socialMedia6.png);
+  grid-column: span 2;
+}
+
+.oneBlockWithPictures-first .vectorPlay {
+  background-image: url(../img/VectorPlay.png);
+  width: 70px;
+  height: 70px;
+  margin: 113px auto;
+}
+
+.oneBlockWithPictures-sixth .vectorPlay {
+  background-image: url(../img/VectorPlay.png);
+  width: 70px;
+  height: 70px;
+  margin: 113px auto;
+}
+
+.socialMedia p {
+  font-family: "Gilroy-Regular";
+  font-size: 21px;
+  line-height: 29px;
+}
+
+.socialMedia h2 {
+  font-family: "NotoSerif-Bold";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.newsletter ul {
+  list-style-image: url(../img/Frame.png);
+  text-align: left;
+}
+
+.newsletter {
+  display: flex;
+}
+
+.newsletter-form {
+  width: 418px;
+  height: 85px;
+  background-color: #ffffff;
+  outline: 1px solid #ffffff;
+   border: 10px solid #070707; 
+   display: flex;
+   align-items: center;
+   margin-left: 55px;
+   }
+
+.newsletter-form button{
+  width: 159px;
+height: 45px;
+background-color: #333333;
+border: 1px solid #ffffff;
+font-size: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 500;
+font-family:  "Gilroy-Medium";
+text-align: center;
+margin: auto;
+}
+
+.newsletter-form input{
+  width: 200px;
+height: 45px;
+background-color: #ffffff;
+border: 1px solid #d6d6d6;
+/* opacity: 0.502; */
+font-size: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+/* color: #333333; */
+/* font-weight: 500; */
+font-family: "Gilroy-Medium";
+text-align: center;
+margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(../fonts/Gilroy-Regular.woff);
+}
+
+@font-face {
+  font-family: "NotoSerif-Bold";
+  src: url(../fonts/NotoSerif-Bold.woff);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.woff);
+}
