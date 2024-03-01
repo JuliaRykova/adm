@@ -108,7 +108,7 @@ a {
   border: none;
   background-color: #fff;
   appearance: none;
-
+border-bottom:1px solid #bcbaba;
 }
 
 .dropDownListItem {
@@ -140,6 +140,11 @@ a {
 .blokCatalog {
   display: flex;
   gap: 101px;
+}
+
+.blokCatalog-line {
+  border-top: 1px solid #bdb6b6;
+  padding-top: 95px;
 }
 
 .product {
@@ -641,7 +646,7 @@ footer {
   display: block;
   position: relative;
   width: 1110px;
-  height: 2px;
+  height: 1px;
   background-color: #000;
 }
 

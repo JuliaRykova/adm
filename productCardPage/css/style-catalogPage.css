@@ -122,6 +122,10 @@ a {
   margin: 0px 7px 0 9px;
 }
 
+.breadCrumbs-paragraph :nth-child(odd){
+  border-bottom:2px solid #cccbcb;
+}
+
 .breadCrumbs-paragraph a {
   color: #000;
 }
@@ -175,7 +179,9 @@ a {
   line-height: 21px;
   color: #333333;
   font-family: "Gilroy-Regular";
-  margin-top: 58px;
+  margin-top: 27px;
+  border-top: 1px solid #aaa8a8;
+  padding-top: 31px;
 }
 
 .price {
