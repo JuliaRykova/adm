@@ -26,13 +26,11 @@ body {
 
 .header-menu {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   width: 1200px;
   padding: 0;
   margin-top: 26px;
   margin-left: 59px;
-
 }
 
 .header-menu li {
@@ -66,7 +64,6 @@ body {
 
 a {
   text-decoration: none;
-  /* color: #fff; */
 }
 
 .header-text {
@@ -97,12 +94,10 @@ a {
   left: -40px;
 }
 
-
-
-
 /* nav *****************/
 .breadCrumbs-list {
   display: flex;
+  padding: 0;
 }
 
 .breadCrumbs {
@@ -125,16 +120,63 @@ a {
 }
 
 /* контакты*********************** */
-.contactsHeader {}
+.contactsHeader {
+  font-family: "Gilroy-Medium";
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 42px;
+  text-transform: uppercase;
+}
 
-.mainOffice-header {}
+.contactsBlok,
+.contactsHeader,
+.breadCrumbs {
+  display: flex;
+  justify-content: center;
+}
 
-.mainOffice-address {}
+.map {
+  display: flex;
+  margin: 103px auto;
+}
 
-.phones {}
+.contactsBlok-header {
+  font-family: "Gilroy-SemiBold";
+  font-size: 18px;
+}
 
+.mainOffice,
+.phones,
+.email,
+.address {
+  font-family: "Gilroy-Regular";
+  font-size: 14px;
+  list-style-type: none;
+  padding: 0;
+}
 
+.min-contactsBlok {
+  padding: 0 0;
+}
 
+.icon {
+  padding-right: 10px;
+}
+
+.contactsBlok {
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.mainOffice-address,
+.phones-number,
+.contactsBlok-email,
+.contactsBlok-address {
+  padding: 7px 0 15px 4px;
+}
 
 /* footer******************************** */
 footer {
@@ -145,7 +187,6 @@ footer {
 
 .contactInformation {
   width: 1110px;
-
 }
 
 .basicInformation {
@@ -219,7 +260,6 @@ footer {
   padding: 3px 0px
 }
 
-
 .additionalInformation ul {
   list-style-type: none;
   padding: 0;
@@ -247,4 +287,25 @@ footer {
 
 .figma-end {
   padding: 0;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(../fons/Gilroy-Regular.woff);
+}
+
+@font-face {
+  font-family: "NotoSerif-Bold";
+  src: url(../fons/NotoSerif-Bold.woff);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fons/Gilroy-Medium.woff);
+}
+
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fons/Gilroy-SemiBold.woff);
 }

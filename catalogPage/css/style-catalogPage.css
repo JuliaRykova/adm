@@ -24,13 +24,11 @@ body {
 
 .header-menu {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   width: 1200px;
   padding: 0;
   margin-top: 26px;
   margin-left: 59px;
-
 }
 
 .header-menu li {
@@ -64,7 +62,6 @@ body {
 
 a {
   text-decoration: none;
-  /* color: #fff; */
 }
 
 .header-text {
@@ -114,7 +111,6 @@ a {
 
 }
 
-
 .dropDownListItem {
   width: 170px;
   appearance: none;
@@ -126,11 +122,6 @@ a {
 .event {
   margin-right: 0;
 }
-
-
-
-
-
 
 
 /* выпадающий список */
@@ -224,10 +215,8 @@ a {
 
 .text-information {
   width: 540px;
-  /* height: 240px; */
   font-size: 16px;
   letter-spacing: 0px;
-  /* text-transform: uppercase; */
   color: #333333;
   font-weight: 500;
   font-family: "Gilroy-Regular";
@@ -235,7 +224,7 @@ a {
   padding-top: 3px;
 }
 
-.text{
+.text {
   line-height: 1.5;
 }
 
@@ -252,8 +241,6 @@ a {
   margin-top: 5px;
   padding: 0;
 }
-
-
 
 .information-name {
   font-size: 16px;
@@ -276,58 +263,17 @@ a {
   margin: 0px 33px 15px 37px;
   display: flex;
   flex-direction: column;
-  align-items: center;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  align-items: center;
+}
 
 /* footer******************************** */
 
 .our-showrooms {
   background-image: url(../img/background.png);
-  /* background-color: #000; */
   height: 480px;
   width: 100%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   text-align: center;
 }
 
@@ -355,12 +301,10 @@ a {
   line-height: 25px;
   color: #ffffff;
   font-family: "Gilroy-Regular";
-  /* text-align: center; */
 }
 
 .our-showrooms h2 {
   font-size: 28px;
-  /* color: #ffffff; */
   font-weight: 700;
   font-family: "NotoSerif-Bold";
   margin-top: 0;
@@ -392,7 +336,6 @@ a {
 
 .several-blocks {
   display: flex;
-
 }
 
 .articles h2 {
@@ -401,7 +344,6 @@ a {
   font-family: "NotoSerif-Bold";
   margin-top: -7px;
   margin-bottom: 45px;
-
 }
 
 .articles p {
@@ -426,7 +368,6 @@ a {
   text-align: center;
   margin: 249px auto 0;
   width: 210px;
-
 }
 
 .one-article-first {
@@ -581,14 +522,10 @@ a {
   height: 45px;
   background-color: #ffffff;
   border: 1px solid #d6d6d6;
-  /* opacity: 0.502; */
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /* color: #333333; */
-  /* font-weight: 500; */
   font-family: "Gilroy-Medium";
-  /* text-align: center; */
   margin: auto;
   margin-right: -7px;
   box-sizing: border-box;
@@ -597,7 +534,6 @@ a {
 
 .contactInformation {
   width: 1110px;
-
 }
 
 .basicInformation {
@@ -617,8 +553,6 @@ footer {
   width: 255px;
   padding-right: 30px;
 }
-
-
 
 .basicInformation-blok h3::after {
   content: '';
@@ -715,34 +649,6 @@ footer {
   padding: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @font-face {
   font-family: "Gilroy-Regular";
   src: url(../fons/Gilroy-Regular.woff);
@@ -762,4 +668,11 @@ footer {
 @font-face {
   font-family: "Gilroy-SemiBold";
   src: url(../fons/Gilroy-SemiBold.woff);
+}
+
+.linkToCatalogPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
 }

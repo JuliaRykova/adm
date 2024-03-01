@@ -24,7 +24,6 @@ body {
 
 .header-menu {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   width: 1200px;
   padding: 0;
@@ -64,7 +63,6 @@ body {
 
 a {
   text-decoration: none;
-  /* color: #fff; */
 }
 
 .header-text {
@@ -149,17 +147,6 @@ a {
   padding: 0;
 }
 
-/* .product-details::before{
-    content: "";
-    position: relative;
-    height: 557px;
-    z-index: -1;
-    border: inherit;
-    width: 516px;
-    top: -20px;
-    display: block;
-    left: -29px;
-} */
 .name {
   font-size: 24px;
   line-height: 24px;
@@ -230,36 +217,6 @@ a {
   margin-left: 27px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* каталог */
 .catalog {
   display: flex;
@@ -279,7 +236,6 @@ a {
   line-height: 42px;
   color: #333333;
   font-weight: bold;
-  /* font-family: "Gilroy"; */
 }
 
 .product {
@@ -311,7 +267,6 @@ a {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 15px;
-
 }
 
 .product-price {
@@ -325,7 +280,6 @@ a {
   height: 41px;
   background-color: #333333;
   border: 1px solid #ffffff;
-
 }
 
 .open-catalog-items {
@@ -340,7 +294,6 @@ a {
   font-weight: 500;
   font-family: "Gilroy-Medium";
   text-align: center;
-
 }
 
 
@@ -354,10 +307,8 @@ a {
 
 .text-information {
   width: 540px;
-  /* height: 240px; */
   font-size: 16px;
   letter-spacing: 0px;
-  /* text-transform: uppercase; */
   color: #333333;
   font-weight: 500;
   font-family: "Gilroy-Regular";
@@ -429,52 +380,14 @@ a {
   margin: 15px 0 94px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer******************************** */
 
 .our-showrooms {
   background-image: url(../img/background.png);
-  /* background-color: #000; */
   height: 480px;
   width: 100%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   text-align: center;
 }
 
@@ -502,12 +415,10 @@ a {
   line-height: 25px;
   color: #ffffff;
   font-family: "Gilroy-Regular";
-  /* text-align: center; */
 }
 
 .our-showrooms h2 {
   font-size: 28px;
-  /* color: #ffffff; */
   font-weight: 700;
   font-family: "NotoSerif-Bold";
   margin-top: 0;
@@ -539,7 +450,6 @@ a {
 
 .several-blocks {
   display: flex;
-
 }
 
 .articles h2 {
@@ -728,14 +638,10 @@ a {
   height: 45px;
   background-color: #ffffff;
   border: 1px solid #d6d6d6;
-  /* opacity: 0.502; */
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /* color: #333333; */
-  /* font-weight: 500; */
   font-family: "Gilroy-Medium";
-  /* text-align: center; */
   margin: auto;
   margin-right: -7px;
   box-sizing: border-box;
@@ -764,8 +670,6 @@ footer {
   width: 255px;
   padding-right: 30px;
 }
-
-
 
 .basicInformation-blok h3::after {
   content: '';
@@ -861,34 +765,6 @@ footer {
 .figma-end {
   padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @font-face {
   font-family: "Gilroy-Regular";
