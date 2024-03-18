@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/style-catalogPage.css">
+
 </head>
 
 <body>
@@ -125,8 +126,46 @@
             </a>
           </div>
         </div>
-        <button class="open-catalog-items">покажите еще</button>
+
+
+
+
+
+        <div class="blokCatalog blokCatalog-line  hiddenBlokCatalog " id="hiddenBlokCatalog">
+          <div class="product">
+            <a class="linkToCatalogPage" href="../productCardPage/catalogPage.html">
+              <img src="./img/product-img.png" alt="" class="product-img">
+              <p class="product-category">Подвеска</p>
+              <h2 class="product-name">Dolce & Gabanna</h2>
+              <button class="product-price">175 000 ₽</button>
+            </a>
+          </div>
+          <div class="product">
+            <a class="linkToCatalogPage" href="../productCardPage/catalogPage.html">
+              <img src="./img/product-img.png" alt="" class="product-img">
+              <p class="product-category">Подвеска</p>
+              <h2 class="product-name">Dolce & Gabanna</h2>
+              <button class="product-price">175 000 ₽</button>
+            </a>
+          </div>
+          <div class="product">
+            <a class="linkToCatalogPage" href="../productCardPage/catalogPage.html">
+              <img src="./img/product-img.png" alt="" class="product-img">
+              <p class="product-category">Подвеска</p>
+              <h2 class="product-name">Dolce & Gabanna</h2>
+              <button class="product-price">175 000 ₽</button>
+            </a>
+          </div>
+        </div>
+
+
+
+
+
+        <button class="open-catalog-items open" id="open">покажите еще</button>
       </div>
+
+
       <div class="information">
         <div class="text-information">
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor
@@ -136,7 +175,10 @@
             Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed
             dignissim amet ut vitae at ornare sed.
           </p>
-          <button class="open-text">Читать полностью</button>
+          <div class="transparent-text" id="transparent-text">
+          </div>
+          <button class="open-text" id="open-text">Читать полностью</button>
+       
         </div>
         <div class="additionalInformation-top">
           <div class="additionalInformation-blok">
@@ -241,6 +283,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js/script.js"></script>
 
 </body>
 
